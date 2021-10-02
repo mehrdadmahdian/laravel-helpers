@@ -1,0 +1,29 @@
+{
+    "name": "mehrdadmahdian/laravel-helpers",
+    "description": "This package contains some useful helper methods",
+    "type": "library",
+    "authors": [
+        {
+            "name": "mehrdad mahdian",
+            "email": "mahdian.mhd@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
