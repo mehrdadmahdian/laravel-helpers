@@ -3,6 +3,8 @@
 
 
 # Todo
-- file uploaded helpers
+- file uploader helpers
+- global interfaces 
+- predefined design pattern templates
 
 # Suggested Features to contribute
